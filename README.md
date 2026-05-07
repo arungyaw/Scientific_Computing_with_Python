@@ -37,6 +37,16 @@ Implements a shortest path algorithm using a weighted graph. It calculates the s
 ### `vigenerecaesar.py`
 Implements a Vigenere cipher for encryption and decryption. It uses a custom key to shift letters and can decode an encrypted message back into readable text.
 
+### `recursion.py`
+Implements a recursive solution to solve the mathematical puzzle known as the Tower of Hanoi. The puzzle consists of three rods and a number of disks of different diameters. The goal of this puzzle is moving the disks from the first rod to the third rod, following specific rules that restrict placing a larger disk on top of a smaller one.
+
+### `mergesortalgorithm.py`
+The Merge Sort Algorithm is a sorting algorithm based on the divide and conquer principle.
+Here, we interact with data structures by sorting a list of random numbers using the Merge Sort Algorithm.
+
+### `timecalculator.py`
+A simple time calculator without using any python libraries that takes the input in AM or PM and add duration and days to find out the result.
+
 ## How to Run
 
 Make sure Python is installed, then run any file from the terminal:
