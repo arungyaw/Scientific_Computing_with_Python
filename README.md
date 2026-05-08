@@ -47,6 +47,12 @@ Here, we interact with data structures by sorting a list of random numbers using
 ### `timecalculator.py`
 A simple time calculator without using any python libraries that takes the input in AM or PM and add duration and days to find out the result.
 
+### `sudokusolver.py`
+In this project, we simply use classes and objects to build a Sudoku grid and to solve a Sudoku puzzle.
+
+### `binarysearchtree.py`
+A Binary Search Tree (BST) is an common data structure where data is sorted hierarchically.In this project,we construct our own BST and perform an in-order traversal while using key operations like insertion, search, and deletion.
+
 ## How to Run
 
 Make sure Python is installed, then run any file from the terminal:
