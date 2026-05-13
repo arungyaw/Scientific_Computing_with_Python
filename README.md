@@ -53,6 +53,12 @@ In this project, we simply use classes and objects to build a Sudoku grid and to
 ### `binarysearchtree.py`
 A Binary Search Tree (BST) is an common data structure where data is sorted hierarchically.In this project,we construct our own BST and perform an in-order traversal while using key operations like insertion, search, and deletion.
 
+### `budgetapp.py`
+This project is a Budget App where we create budget categories such as Food, Clothing, and Entertainment. Each category will store its deposits, withdrawals, and transfers inside a ledger list. Later, we will also create a spending chart that compares how much was spent from each category. The project is mainly testing our understanding of classes, methods, lists, dictionaries, string formatting, and functions in Python.
+
+### `vectorspace.py`
+This program demonstrates how vector objects can be created and manipulated using object-oriented programming in Python. The program defines 2D and 3D vector classes, supports inheritance, and implements common vector operations such as representation, equality comparison, norm calculation, scalar multiplication, dot product, and cross product for 3D vectors. Overall, the program shows how mathematical vector behavior can be modeled using Python classes and special methods.
+
 ## How to Run
 
 Make sure Python is installed, then run any file from the terminal:
