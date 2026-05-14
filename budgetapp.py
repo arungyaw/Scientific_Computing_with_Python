@@ -1,3 +1,4 @@
+#Category class
 class Category:
     def __init__(self, name):
         self.name = name
@@ -15,9 +16,11 @@ class Category:
         output += f"Total: {self.get_balance()}"
         return output
 
+    #deposit method
     def deposit(self, amount, description=""):
         self.ledger.append({"amount": amount, "description": description})
 
+    #withdraw method
     def withdraw(self, amount, description=""):
         if not self.check_funds(amount):
             return False
@@ -25,18 +28,19 @@ class Category:
         self.ledger.append({"amount": -amount, "description": description})
         return True
 
+    #Remaining balance
     def get_balance(self):
         balance = 0
         for item in self.ledger:
             balance += item["amount"]
         return balance
-
+    #Check balance
     def check_funds(self, amount):
         if amount > self.get_balance():
             return False
         else:
             return True
-
+    #Transfer method
     def transfer(self, amount, category):
         if not self.check_funds(amount):
             return False
@@ -45,6 +49,7 @@ class Category:
         category.deposit(amount, "Transfer from " + self.name)
         return True
 
+#Chart print function
 def create_spend_chart(categories):
     spent_amounts = []
     for category in categories:

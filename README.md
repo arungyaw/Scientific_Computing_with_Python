@@ -59,6 +59,9 @@ This project is a Budget App where we create budget categories such as Food, Clo
 ### `vectorspace.py`
 This program demonstrates how vector objects can be created and manipulated using object-oriented programming in Python. The program defines 2D and 3D vector classes, supports inheritance, and implements common vector operations such as representation, equality comparison, norm calculation, scalar multiplication, dot product, and cross product for 3D vectors. Overall, the program shows how mathematical vector behavior can be modeled using Python classes and special methods.
 
+### `equationsolver.py`
+In this project, we'll discover how to implement an interface in Python while building a simple equation solver program.
+
 ## How to Run
 
 Make sure Python is installed, then run any file from the terminal:
