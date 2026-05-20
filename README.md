@@ -62,6 +62,15 @@ This program demonstrates how vector objects can be created and manipulated usin
 ### `equationsolver.py`
 In this project, we'll discover how to implement an interface in Python while building a simple equation solver program.
 
+### `projectiletrajectorycalculator.py`
+In this project, we'll discover new concepts related to encapsulation, such as getters, setters, and name mangling, and we'll use them together with what we already learned to create a program that calculates a projectile trajectory.
+
+### `polygonareacalculator.py`
+In this project, we will use object oriented programming to create a Rectangle class and a Square class. The Square class will be a subclass of Rectangle, and inherit its methods and attributes.
+
+### `probabilitycalculator.py`
+While it would be possible to calculate the probability using advanced mathematics, an easier way is to write a program to perform a large number of experiments to estimate an approximate probability. For this project, we will write a program to determine the approximate probability of drawing certain balls randomly from a hat.
+
 ## How to Run
 
 Make sure Python is installed, then run any file from the terminal:
